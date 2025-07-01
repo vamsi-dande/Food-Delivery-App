@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background: #ff6600;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .body {
+            padding: 20px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Food Delivery Order Confirmation</div>
+        <div class="body">
+            <p>Hello <strong>${customerName}</strong>,</p>
+            <p>Your order <strong>#${orderId}</strong> has been successfully placed!</p>
+            <p>Estimated Delivery Time: <strong>${deliveryTime}</strong></p>
+            <p>Thank you for choosing our service!</p>
+        </div>
+        <div class="footer">© 2025 Food Delivery App</div>
+    </div>
+</body>
+</html>
